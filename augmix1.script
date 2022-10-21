@@ -7,5 +7,5 @@
 #SBATCH --gres=gpu:1
 
 source ~/.bashrc
-conda activate am_env
+conda activate env_am
 python cifar.py -e 100
