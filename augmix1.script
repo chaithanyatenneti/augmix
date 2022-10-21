@@ -1,11 +1,11 @@
 #!/bin/sh
 #SBATCH --job-name=augmix-test1   
-#SBATCH --time=1:00:00
+#SBATCH --time=3:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=2
 #SBATCH --partition=gpu
-#SBATCH --gres=gpu:4
+#SBATCH --gres=gpu:1
 
 source ~/.bashrc
 conda activate am_env
-python cifar.py -e 50
+python cifar.py -e 100
