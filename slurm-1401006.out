@@ -1,0 +1,31 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+usage: cifar.py [-h] [--dataset {cifar10,cifar100}]
+                [--model {wrn,allconv,densenet,resnext}] [--epochs EPOCHS]
+                [--learning-rate LEARNING_RATE] [--batch-size BATCH_SIZE]
+                [--eval-batch-size EVAL_BATCH_SIZE] [--momentum MOMENTUM]
+                [--decay DECAY] [--layers LAYERS]
+                [--widen-factor WIDEN_FACTOR] [--droprate DROPRATE]
+                [--mixture-width MIXTURE_WIDTH]
+                [--mixture-depth MIXTURE_DEPTH] [--aug-severity AUG_SEVERITY]
+                [--no-jsd] [--all-ops] [--save SAVE] [--resume RESUME]
+                [--evaluate] [--print-freq PRINT_FREQ]
+                [--num-workers NUM_WORKERS]
+cifar.py: error: argument --epochs/-e: expected one argument
