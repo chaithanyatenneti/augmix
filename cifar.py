@@ -29,6 +29,7 @@ import time
 
 import augmentations
 from models.cifar.allconv import AllConvNet
+
 import numpy as np
 from third_party.ResNeXt_DenseNet.models.densenet import densenet
 from third_party.ResNeXt_DenseNet.models.resnext import resnext29
@@ -37,8 +38,10 @@ from third_party.WideResNet_pytorch.wideresnet import WideResNet
 import torch
 import torch.backends.cudnn as cudnn
 import torch.nn.functional as F
+import torch.nn as nn
 from torchvision import datasets
 from torchvision import transforms
+from torchvision import models as M
 
 parser = argparse.ArgumentParser(
     description='Trains a CIFAR Classifier',
@@ -54,7 +57,7 @@ parser.add_argument(
     '-m',
     type=str,
     default='wrn',
-    choices=['wrn', 'allconv', 'densenet', 'resnext'],
+    choices=['wrn', 'allconv', 'densenet', 'resnext','resnet18pt','resnet18npt','convn_tpt','convn_tnpt'],
     help='Choose architecture.')
 # Optimization options
 parser.add_argument(
@@ -338,7 +341,18 @@ def main():
     net = AllConvNet(num_classes)
   elif args.model == 'resnext':
     net = resnext29(num_classes=num_classes)
-
+  elif args.model == 'resnet18pt':
+    net = M.resnet18(pretrained=True)
+    net.fc = nn.Linear(in_features=512, out_features=10, bias=True)
+  elif args.model == 'resnet18npt':
+    net = M.resnet18(pretrained=False)
+    net.fc = nn.Linear(in_features=512, out_features=10, bias=True)
+  elif args.model == 'convn_tpt':
+    net = M.convnext_tiny(pretrained=True)
+    net.classifier[2] = nn.Linear(in_features=768, out_features=10, bias=True)
+  elif args.model == 'convn_tnpt':
+    net = M.convnext_tiny(pretrained=False)
+    net.classifier[2] = nn.Linear(in_features=768, out_features=10, bias=True)
   optimizer = torch.optim.SGD(
       net.parameters(),
       args.learning_rate,

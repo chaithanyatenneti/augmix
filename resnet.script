@@ -1,0 +1,13 @@
+#!/bin/sh
+#SBATCH --job-name=augmix-test1
+#SBATCH --output=task4_res18npt.out   
+#SBATCH --time=5:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+
+source ~/.bashrc
+conda deactivate
+conda activate env_am
+python cifar.py -m resnet18npt -e 100 -lr 0.01

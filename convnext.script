@@ -1,0 +1,13 @@
+#!/bin/sh
+#SBATCH --job-name=augmix-test2
+#SBATCH --output=task4_convn_tnpt.out   
+#SBATCH --time=5:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+
+source ~/.bashrc
+conda deactivate
+conda activate env_am
+python cifar.py -m convn_tnpt -e 100 -lr 0.01
