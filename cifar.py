@@ -42,6 +42,7 @@ import torch.nn as nn
 from torchvision import datasets
 from torchvision import transforms
 from torchvision import models as M
+from torch.utils.tensorboard import SummaryWriter
 
 parser = argparse.ArgumentParser(
     description='Trains a CIFAR Classifier',
@@ -136,6 +137,21 @@ parser.add_argument(
     default=4,
     help='Number of pre-fetching threads.')
 
+# Optimzer and Learning rate Scheduler
+# parser.add_argument(
+#     '--optim',
+#     type=str,
+#     default='sgd',
+#     choices=['sgd','adamw'],
+#     help='Selection for optimizer')
+
+# parser.add_argument(
+#     '--sched',
+#     type=str,
+#     default='lambdalr',
+#     choices=['lambdalr','cosinelr'],
+#     help='Selection for lr scheduler')
+
 args = parser.parse_args()
 
 CORRUPTIONS = [
@@ -144,6 +160,9 @@ CORRUPTIONS = [
     'brightness', 'contrast', 'elastic_transform', 'pixelate',
     'jpeg_compression'
 ]
+
+PERTURBATIONS = ['gaussian_noise', 'shot_noise', 'motion_blur', 'zoom_blur',
+                 'spatter', 'brightness', 'translate', 'rotate', 'tilt', 'scale']
 
 
 def get_lr(step, total_steps, lr_max, lr_min):
@@ -353,6 +372,7 @@ def main():
   elif args.model == 'convn_tnpt':
     net = M.convnext_tiny(pretrained=False)
     net.classifier[2] = nn.Linear(in_features=768, out_features=10, bias=True)
+
   optimizer = torch.optim.SGD(
       net.parameters(),
       args.learning_rate,
@@ -385,6 +405,7 @@ def main():
     print('Mean Corruption Error: {:.3f}'.format(100 - 100. * test_c_acc))
     return
 
+
   scheduler = torch.optim.lr_scheduler.LambdaLR(
       optimizer,
       lr_lambda=lambda step: get_lr(  # pylint: disable=g-long-lambda
@@ -403,14 +424,18 @@ def main():
   with open(log_path, 'w') as f:
     f.write('epoch,time(s),train_loss,test_loss,test_error(%)\n')
 
+  w=SummaryWriter('logs/'+args.model)
+
   best_acc = 0
+
   print('Beginning training from epoch:', start_epoch + 1)
   for epoch in range(start_epoch, args.epochs):
     begin_time = time.time()
 
     train_loss_ema = train(net, train_loader, optimizer, scheduler)
     test_loss, test_acc = test(net, test_loader)
-
+    
+    
     is_best = test_acc > best_acc
     best_acc = max(test_acc, best_acc)
     checkpoint = {
@@ -435,7 +460,9 @@ def main():
           test_loss,
           100 - 100. * test_acc,
       ))
-
+    w.add_scalar('Loss/Train',train_loss_ema,epoch+1)
+    w.add_scalar('Loss/Test ',test_loss,epoch+1)
+    w.add_scalar('Accuracy/Test',test_acc*100,epoch+1)
     print(
         'Epoch {0:3d} | Time {1:5d} | Train Loss {2:.4f} | Test Loss {3:.3f} |'
         ' Test Error {4:.2f}'
@@ -448,7 +475,6 @@ def main():
   with open(log_path, 'a') as f:
     f.write('%03d,%05d,%0.6f,%0.5f,%0.2f\n' %
             (args.epochs + 1, 0, 0, 0, 100 - 100 * test_c_acc))
-
 
 if __name__ == '__main__':
   main()
