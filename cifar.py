@@ -463,6 +463,8 @@ def main():
     w.add_scalar('Loss/Train',train_loss_ema,epoch+1)
     w.add_scalar('Loss/Test ',test_loss,epoch+1)
     w.add_scalar('Accuracy/Test',test_acc*100,epoch+1)
+
+    w.close()
     print(
         'Epoch {0:3d} | Time {1:5d} | Train Loss {2:.4f} | Test Loss {3:.3f} |'
         ' Test Error {4:.2f}'
