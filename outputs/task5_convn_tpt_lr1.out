@@ -1,0 +1,938 @@
+/home/g051463/.conda/envs/env_am/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/home/g051463/.conda/envs/env_am/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ConvNeXt_Tiny_Weights.IMAGENET1K_V1`. You can also use `weights=ConvNeXt_Tiny_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Files already downloaded and verified
+Files already downloaded and verified
+Beginning training from epoch: 1
+Train Loss 0.261
+Train Loss 2.323
+Train Loss 2.317
+Train Loss 2.311
+Train Loss 2.313
+Train Loss 2.312
+Train Loss 2.311
+Train Loss 2.314
+Epoch   1 | Time    46 | Train Loss 2.3067 | Test Loss 0.002 | Test Error 90.00
+Train Loss 0.232
+Train Loss 2.299
+Train Loss 2.309
+Train Loss 2.309
+Train Loss 2.306
+Train Loss 2.314
+Train Loss 2.311
+Train Loss 2.309
+Epoch   2 | Time    46 | Train Loss 2.3076 | Test Loss 0.002 | Test Error 90.00
+Train Loss 0.232
+Train Loss 2.299
+Train Loss 2.309
+Train Loss 2.313
+Train Loss 2.306
+Train Loss 2.305
+Train Loss 2.304
+Train Loss 2.158
+Epoch   3 | Time    47 | Train Loss 2.1153 | Test Loss 0.002 | Test Error 79.56
+Train Loss 0.219
+Train Loss 2.055
+Train Loss 2.041
+Train Loss 1.997
+Train Loss 1.985
+Train Loss 1.983
+Train Loss 1.965
+Train Loss 1.916
+Epoch   4 | Time    48 | Train Loss 1.9103 | Test Loss 0.002 | Test Error 63.79
+Train Loss 0.190
+Train Loss 1.855
+Train Loss 1.860
+Train Loss 1.829
+Train Loss 1.824
+Train Loss 1.806
+Train Loss 1.785
+Train Loss 1.787
+Epoch   5 | Time    47 | Train Loss 1.7871 | Test Loss 0.002 | Test Error 58.06
+Train Loss 0.192
+Train Loss 1.779
+Train Loss 1.709
+Train Loss 1.770
+Train Loss 1.738
+Train Loss 1.783
+Train Loss 1.733
+Train Loss 1.706
+Epoch   6 | Time    46 | Train Loss 1.7621 | Test Loss 0.002 | Test Error 55.04
+Train Loss 0.163
+Train Loss 1.735
+Train Loss 1.718
+Train Loss 1.691
+Train Loss 1.726
+Train Loss 1.730
+Train Loss 1.695
+Train Loss 1.688
+Epoch   7 | Time    46 | Train Loss 1.7016 | Test Loss 0.002 | Test Error 55.42
+Train Loss 0.167
+Train Loss 1.682
+Train Loss 1.733
+Train Loss 1.691
+Train Loss 1.677
+Train Loss 1.692
+Train Loss 1.706
+Train Loss 1.689
+Epoch   8 | Time    47 | Train Loss 1.6790 | Test Loss 0.001 | Test Error 52.78
+Train Loss 0.171
+Train Loss 1.617
+Train Loss 1.679
+Train Loss 1.684
+Train Loss 1.674
+Train Loss 1.644
+Train Loss 1.685
+Train Loss 1.662
+Epoch   9 | Time    46 | Train Loss 1.6454 | Test Loss 0.001 | Test Error 50.56
+Train Loss 0.164
+Train Loss 1.648
+Train Loss 1.652
+Train Loss 1.666
+Train Loss 1.642
+Train Loss 1.661
+Train Loss 1.654
+Train Loss 1.630
+Epoch  10 | Time    47 | Train Loss 1.6707 | Test Loss 0.001 | Test Error 48.86
+Train Loss 0.179
+Train Loss 1.632
+Train Loss 1.661
+Train Loss 1.628
+Train Loss 1.654
+Train Loss 1.627
+Train Loss 1.626
+Train Loss 1.640
+Epoch  11 | Time    46 | Train Loss 1.6127 | Test Loss 0.001 | Test Error 50.64
+Train Loss 0.169
+Train Loss 1.642
+Train Loss 1.655
+Train Loss 1.618
+Train Loss 1.650
+Train Loss 1.624
+Train Loss 1.583
+Train Loss 1.614
+Epoch  12 | Time    47 | Train Loss 1.6148 | Test Loss 0.001 | Test Error 48.79
+Train Loss 0.154
+Train Loss 1.594
+Train Loss 1.565
+Train Loss 1.638
+Train Loss 1.627
+Train Loss 1.615
+Train Loss 1.609
+Train Loss 1.604
+Epoch  13 | Time    46 | Train Loss 1.6445 | Test Loss 0.001 | Test Error 48.02
+Train Loss 0.153
+Train Loss 1.568
+Train Loss 1.626
+Train Loss 1.589
+Train Loss 1.624
+Train Loss 1.608
+Train Loss 1.634
+Train Loss 1.628
+Epoch  14 | Time    46 | Train Loss 1.6560 | Test Loss 0.001 | Test Error 48.23
+Train Loss 0.162
+Train Loss 1.619
+Train Loss 1.601
+Train Loss 1.569
+Train Loss 1.607
+Train Loss 1.560
+Train Loss 1.608
+Train Loss 1.611
+Epoch  15 | Time    47 | Train Loss 1.5953 | Test Loss 0.001 | Test Error 47.66
+Train Loss 0.152
+Train Loss 1.631
+Train Loss 1.573
+Train Loss 1.596
+Train Loss 1.608
+Train Loss 1.567
+Train Loss 1.581
+Train Loss 1.603
+Epoch  16 | Time    46 | Train Loss 1.5700 | Test Loss 0.001 | Test Error 47.87
+Train Loss 0.144
+Train Loss 1.594
+Train Loss 1.571
+Train Loss 1.577
+Train Loss 1.600
+Train Loss 1.601
+Train Loss 1.583
+Train Loss 1.593
+Epoch  17 | Time    46 | Train Loss 1.5901 | Test Loss 0.001 | Test Error 51.67
+Train Loss 0.159
+Train Loss 1.575
+Train Loss 1.588
+Train Loss 1.556
+Train Loss 1.570
+Train Loss 1.579
+Train Loss 1.588
+Train Loss 1.574
+Epoch  18 | Time    46 | Train Loss 1.5775 | Test Loss 0.001 | Test Error 46.46
+Train Loss 0.159
+Train Loss 1.570
+Train Loss 1.579
+Train Loss 1.582
+Train Loss 1.590
+Train Loss 1.564
+Train Loss 1.625
+Train Loss 1.574
+Epoch  19 | Time    47 | Train Loss 1.5745 | Test Loss 0.001 | Test Error 47.85
+Train Loss 0.161
+Train Loss 1.581
+Train Loss 1.566
+Train Loss 1.574
+Train Loss 1.585
+Train Loss 1.565
+Train Loss 1.546
+Train Loss 1.570
+Epoch  20 | Time    46 | Train Loss 1.5630 | Test Loss 0.001 | Test Error 50.37
+Train Loss 0.165
+Train Loss 1.548
+Train Loss 1.551
+Train Loss 1.575
+Train Loss 1.565
+Train Loss 1.549
+Train Loss 1.563
+Train Loss 1.545
+Epoch  21 | Time    46 | Train Loss 1.5407 | Test Loss 0.001 | Test Error 46.65
+Train Loss 0.158
+Train Loss 1.523
+Train Loss 1.545
+Train Loss 1.561
+Train Loss 1.573
+Train Loss 1.555
+Train Loss 1.553
+Train Loss 1.565
+Epoch  22 | Time    48 | Train Loss 1.5775 | Test Loss 0.001 | Test Error 44.94
+Train Loss 0.142
+Train Loss 1.528
+Train Loss 1.554
+Train Loss 1.522
+Train Loss 1.558
+Train Loss 1.553
+Train Loss 1.552
+Train Loss 1.550
+Epoch  23 | Time    46 | Train Loss 1.5606 | Test Loss 0.001 | Test Error 45.75
+Train Loss 0.160
+Train Loss 1.522
+Train Loss 1.534
+Train Loss 1.505
+Train Loss 1.521
+Train Loss 1.554
+Train Loss 1.522
+Train Loss 1.523
+Epoch  24 | Time    47 | Train Loss 1.5321 | Test Loss 0.001 | Test Error 43.92
+Train Loss 0.155
+Train Loss 1.532
+Train Loss 1.542
+Train Loss 1.526
+Train Loss 1.548
+Train Loss 1.518
+Train Loss 1.541
+Train Loss 1.533
+Epoch  25 | Time    46 | Train Loss 1.5650 | Test Loss 0.001 | Test Error 45.40
+Train Loss 0.150
+Train Loss 1.499
+Train Loss 1.560
+Train Loss 1.532
+Train Loss 1.517
+Train Loss 1.544
+Train Loss 1.521
+Train Loss 1.539
+Epoch  26 | Time    46 | Train Loss 1.5532 | Test Loss 0.001 | Test Error 43.61
+Train Loss 0.153
+Train Loss 1.490
+Train Loss 1.501
+Train Loss 1.529
+Train Loss 1.564
+Train Loss 1.502
+Train Loss 1.560
+Train Loss 1.500
+Epoch  27 | Time    47 | Train Loss 1.5009 | Test Loss 0.001 | Test Error 43.88
+Train Loss 0.140
+Train Loss 1.538
+Train Loss 1.528
+Train Loss 1.529
+Train Loss 1.532
+Train Loss 1.524
+Train Loss 1.487
+Train Loss 1.494
+Epoch  28 | Time    46 | Train Loss 1.5215 | Test Loss 0.001 | Test Error 44.65
+Train Loss 0.146
+Train Loss 1.542
+Train Loss 1.496
+Train Loss 1.517
+Train Loss 1.539
+Train Loss 1.535
+Train Loss 1.523
+Train Loss 1.502
+Epoch  29 | Time    46 | Train Loss 1.5257 | Test Loss 0.001 | Test Error 44.26
+Train Loss 0.155
+Train Loss 1.502
+Train Loss 1.516
+Train Loss 1.489
+Train Loss 1.528
+Train Loss 1.483
+Train Loss 1.507
+Train Loss 1.510
+Epoch  30 | Time    47 | Train Loss 1.5135 | Test Loss 0.001 | Test Error 46.35
+Train Loss 0.155
+Train Loss 1.472
+Train Loss 1.518
+Train Loss 1.505
+Train Loss 1.507
+Train Loss 1.543
+Train Loss 1.529
+Train Loss 1.495
+Epoch  31 | Time    46 | Train Loss 1.5168 | Test Loss 0.001 | Test Error 43.91
+Train Loss 0.155
+Train Loss 1.487
+Train Loss 1.530
+Train Loss 1.480
+Train Loss 1.521
+Train Loss 1.526
+Train Loss 1.516
+Train Loss 1.498
+Epoch  32 | Time    46 | Train Loss 1.4824 | Test Loss 0.001 | Test Error 42.40
+Train Loss 0.134
+Train Loss 1.471
+Train Loss 1.530
+Train Loss 1.489
+Train Loss 1.519
+Train Loss 1.518
+Train Loss 1.489
+Train Loss 1.498
+Epoch  33 | Time    46 | Train Loss 1.5018 | Test Loss 0.001 | Test Error 42.82
+Train Loss 0.158
+Train Loss 1.457
+Train Loss 1.496
+Train Loss 1.484
+Train Loss 1.511
+Train Loss 1.491
+Train Loss 1.506
+Train Loss 1.499
+Epoch  34 | Time    46 | Train Loss 1.4884 | Test Loss 0.001 | Test Error 43.22
+Train Loss 0.149
+Train Loss 1.492
+Train Loss 1.475
+Train Loss 1.488
+Train Loss 1.474
+Train Loss 1.506
+Train Loss 1.461
+Train Loss 1.521
+Epoch  35 | Time    46 | Train Loss 1.4925 | Test Loss 0.001 | Test Error 42.53
+Train Loss 0.153
+Train Loss 1.451
+Train Loss 1.488
+Train Loss 1.510
+Train Loss 1.467
+Train Loss 1.514
+Train Loss 1.491
+Train Loss 1.479
+Epoch  36 | Time    46 | Train Loss 1.4668 | Test Loss 0.001 | Test Error 43.59
+Train Loss 0.142
+Train Loss 1.459
+Train Loss 1.501
+Train Loss 1.511
+Train Loss 1.428
+Train Loss 1.488
+Train Loss 1.465
+Train Loss 1.506
+Epoch  37 | Time    47 | Train Loss 1.4892 | Test Loss 0.001 | Test Error 43.06
+Train Loss 0.159
+Train Loss 1.500
+Train Loss 1.512
+Train Loss 1.500
+Train Loss 1.452
+Train Loss 1.489
+Train Loss 1.481
+Train Loss 1.469
+Epoch  38 | Time    47 | Train Loss 1.4767 | Test Loss 0.001 | Test Error 42.50
+Train Loss 0.145
+Train Loss 1.496
+Train Loss 1.491
+Train Loss 1.472
+Train Loss 1.473
+Train Loss 1.483
+Train Loss 1.505
+Train Loss 1.478
+Epoch  39 | Time    47 | Train Loss 1.4668 | Test Loss 0.001 | Test Error 41.03
+Train Loss 0.146
+Train Loss 1.445
+Train Loss 1.474
+Train Loss 1.483
+Train Loss 1.477
+Train Loss 1.478
+Train Loss 1.462
+Train Loss 1.457
+Epoch  40 | Time    46 | Train Loss 1.4337 | Test Loss 0.001 | Test Error 41.21
+Train Loss 0.147
+Train Loss 1.442
+Train Loss 1.443
+Train Loss 1.481
+Train Loss 1.455
+Train Loss 1.456
+Train Loss 1.459
+Train Loss 1.455
+Epoch  41 | Time    47 | Train Loss 1.4830 | Test Loss 0.001 | Test Error 40.99
+Train Loss 0.152
+Train Loss 1.449
+Train Loss 1.437
+Train Loss 1.466
+Train Loss 1.472
+Train Loss 1.481
+Train Loss 1.467
+Train Loss 1.471
+Epoch  42 | Time    46 | Train Loss 1.4650 | Test Loss 0.001 | Test Error 41.34
+Train Loss 0.145
+Train Loss 1.480
+Train Loss 1.428
+Train Loss 1.453
+Train Loss 1.433
+Train Loss 1.476
+Train Loss 1.448
+Train Loss 1.461
+Epoch  43 | Time    47 | Train Loss 1.4460 | Test Loss 0.001 | Test Error 40.80
+Train Loss 0.138
+Train Loss 1.459
+Train Loss 1.458
+Train Loss 1.464
+Train Loss 1.455
+Train Loss 1.432
+Train Loss 1.453
+Train Loss 1.468
+Epoch  44 | Time    46 | Train Loss 1.4339 | Test Loss 0.001 | Test Error 43.13
+Train Loss 0.154
+Train Loss 1.439
+Train Loss 1.469
+Train Loss 1.467
+Train Loss 1.461
+Train Loss 1.434
+Train Loss 1.449
+Train Loss 1.464
+Epoch  45 | Time    46 | Train Loss 1.4101 | Test Loss 0.001 | Test Error 41.85
+Train Loss 0.157
+Train Loss 1.414
+Train Loss 1.433
+Train Loss 1.463
+Train Loss 1.405
+Train Loss 1.426
+Train Loss 1.436
+Train Loss 1.427
+Epoch  46 | Time    46 | Train Loss 1.4038 | Test Loss 0.001 | Test Error 40.51
+Train Loss 0.149
+Train Loss 1.421
+Train Loss 1.456
+Train Loss 1.460
+Train Loss 1.442
+Train Loss 1.416
+Train Loss 1.430
+Train Loss 1.428
+Epoch  47 | Time    47 | Train Loss 1.3869 | Test Loss 0.001 | Test Error 41.29
+Train Loss 0.149
+Train Loss 1.442
+Train Loss 1.418
+Train Loss 1.459
+Train Loss 1.405
+Train Loss 1.417
+Train Loss 1.403
+Train Loss 1.426
+Epoch  48 | Time    46 | Train Loss 1.4236 | Test Loss 0.001 | Test Error 39.03
+Train Loss 0.144
+Train Loss 1.397
+Train Loss 1.412
+Train Loss 1.434
+Train Loss 1.410
+Train Loss 1.421
+Train Loss 1.436
+Train Loss 1.398
+Epoch  49 | Time    46 | Train Loss 1.4015 | Test Loss 0.001 | Test Error 40.46
+Train Loss 0.148
+Train Loss 1.405
+Train Loss 1.438
+Train Loss 1.415
+Train Loss 1.440
+Train Loss 1.412
+Train Loss 1.417
+Train Loss 1.396
+Epoch  50 | Time    46 | Train Loss 1.4179 | Test Loss 0.001 | Test Error 38.32
+Train Loss 0.141
+Train Loss 1.422
+Train Loss 1.422
+Train Loss 1.415
+Train Loss 1.393
+Train Loss 1.423
+Train Loss 1.394
+Train Loss 1.406
+Epoch  51 | Time    47 | Train Loss 1.4127 | Test Loss 0.001 | Test Error 39.76
+Train Loss 0.137
+Train Loss 1.386
+Train Loss 1.408
+Train Loss 1.393
+Train Loss 1.420
+Train Loss 1.412
+Train Loss 1.390
+Train Loss 1.372
+Epoch  52 | Time    46 | Train Loss 1.4236 | Test Loss 0.001 | Test Error 42.25
+Train Loss 0.138
+Train Loss 1.377
+Train Loss 1.367
+Train Loss 1.411
+Train Loss 1.389
+Train Loss 1.413
+Train Loss 1.364
+Train Loss 1.421
+Epoch  53 | Time    47 | Train Loss 1.3908 | Test Loss 0.001 | Test Error 37.78
+Train Loss 0.141
+Train Loss 1.357
+Train Loss 1.391
+Train Loss 1.376
+Train Loss 1.380
+Train Loss 1.410
+Train Loss 1.378
+Train Loss 1.396
+Epoch  54 | Time    47 | Train Loss 1.3917 | Test Loss 0.001 | Test Error 37.30
+Train Loss 0.136
+Train Loss 1.369
+Train Loss 1.361
+Train Loss 1.368
+Train Loss 1.363
+Train Loss 1.405
+Train Loss 1.406
+Train Loss 1.372
+Epoch  55 | Time    46 | Train Loss 1.4243 | Test Loss 0.001 | Test Error 38.14
+Train Loss 0.134
+Train Loss 1.336
+Train Loss 1.383
+Train Loss 1.356
+Train Loss 1.341
+Train Loss 1.414
+Train Loss 1.395
+Train Loss 1.367
+Epoch  56 | Time    47 | Train Loss 1.3696 | Test Loss 0.001 | Test Error 39.82
+Train Loss 0.131
+Train Loss 1.392
+Train Loss 1.389
+Train Loss 1.364
+Train Loss 1.356
+Train Loss 1.385
+Train Loss 1.370
+Train Loss 1.345
+Epoch  57 | Time    46 | Train Loss 1.3890 | Test Loss 0.001 | Test Error 37.42
+Train Loss 0.152
+Train Loss 1.342
+Train Loss 1.401
+Train Loss 1.349
+Train Loss 1.382
+Train Loss 1.385
+Train Loss 1.353
+Train Loss 1.345
+Epoch  58 | Time    46 | Train Loss 1.3802 | Test Loss 0.001 | Test Error 37.89
+Train Loss 0.140
+Train Loss 1.355
+Train Loss 1.349
+Train Loss 1.367
+Train Loss 1.352
+Train Loss 1.359
+Train Loss 1.355
+Train Loss 1.362
+Epoch  59 | Time    46 | Train Loss 1.3583 | Test Loss 0.001 | Test Error 37.73
+Train Loss 0.123
+Train Loss 1.314
+Train Loss 1.326
+Train Loss 1.355
+Train Loss 1.347
+Train Loss 1.354
+Train Loss 1.370
+Train Loss 1.363
+Epoch  60 | Time    46 | Train Loss 1.3638 | Test Loss 0.001 | Test Error 37.30
+Train Loss 0.145
+Train Loss 1.343
+Train Loss 1.331
+Train Loss 1.350
+Train Loss 1.322
+Train Loss 1.332
+Train Loss 1.323
+Train Loss 1.344
+Epoch  61 | Time    46 | Train Loss 1.3590 | Test Loss 0.001 | Test Error 37.84
+Train Loss 0.140
+Train Loss 1.330
+Train Loss 1.340
+Train Loss 1.363
+Train Loss 1.361
+Train Loss 1.340
+Train Loss 1.320
+Train Loss 1.362
+Epoch  62 | Time    47 | Train Loss 1.3415 | Test Loss 0.001 | Test Error 36.68
+Train Loss 0.131
+Train Loss 1.310
+Train Loss 1.353
+Train Loss 1.368
+Train Loss 1.321
+Train Loss 1.335
+Train Loss 1.334
+Train Loss 1.320
+Epoch  63 | Time    46 | Train Loss 1.3102 | Test Loss 0.001 | Test Error 37.58
+Train Loss 0.131
+Train Loss 1.346
+Train Loss 1.343
+Train Loss 1.335
+Train Loss 1.326
+Train Loss 1.335
+Train Loss 1.315
+Train Loss 1.314
+Epoch  64 | Time    46 | Train Loss 1.3749 | Test Loss 0.001 | Test Error 37.34
+Train Loss 0.146
+Train Loss 1.319
+Train Loss 1.320
+Train Loss 1.330
+Train Loss 1.337
+Train Loss 1.299
+Train Loss 1.335
+Train Loss 1.304
+Epoch  65 | Time    47 | Train Loss 1.3633 | Test Loss 0.001 | Test Error 37.81
+Train Loss 0.154
+Train Loss 1.351
+Train Loss 1.310
+Train Loss 1.316
+Train Loss 1.310
+Train Loss 1.309
+Train Loss 1.319
+Train Loss 1.263
+Epoch  66 | Time    46 | Train Loss 1.3168 | Test Loss 0.001 | Test Error 35.86
+Train Loss 0.135
+Train Loss 1.301
+Train Loss 1.318
+Train Loss 1.330
+Train Loss 1.346
+Train Loss 1.287
+Train Loss 1.339
+Train Loss 1.301
+Epoch  67 | Time    46 | Train Loss 1.2969 | Test Loss 0.001 | Test Error 35.80
+Train Loss 0.122
+Train Loss 1.278
+Train Loss 1.352
+Train Loss 1.313
+Train Loss 1.293
+Train Loss 1.324
+Train Loss 1.327
+Train Loss 1.310
+Epoch  68 | Time    46 | Train Loss 1.2887 | Test Loss 0.001 | Test Error 34.53
+Train Loss 0.138
+Train Loss 1.275
+Train Loss 1.296
+Train Loss 1.291
+Train Loss 1.296
+Train Loss 1.300
+Train Loss 1.298
+Train Loss 1.282
+Epoch  69 | Time    46 | Train Loss 1.2768 | Test Loss 0.001 | Test Error 35.87
+Train Loss 0.130
+Train Loss 1.306
+Train Loss 1.286
+Train Loss 1.285
+Train Loss 1.300
+Train Loss 1.307
+Train Loss 1.301
+Train Loss 1.303
+Epoch  70 | Time    46 | Train Loss 1.3241 | Test Loss 0.001 | Test Error 35.29
+Train Loss 0.126
+Train Loss 1.269
+Train Loss 1.316
+Train Loss 1.271
+Train Loss 1.288
+Train Loss 1.273
+Train Loss 1.301
+Train Loss 1.279
+Epoch  71 | Time    46 | Train Loss 1.2791 | Test Loss 0.001 | Test Error 34.59
+Train Loss 0.127
+Train Loss 1.294
+Train Loss 1.288
+Train Loss 1.317
+Train Loss 1.295
+Train Loss 1.294
+Train Loss 1.320
+Train Loss 1.254
+Epoch  72 | Time    46 | Train Loss 1.2921 | Test Loss 0.001 | Test Error 35.78
+Train Loss 0.125
+Train Loss 1.269
+Train Loss 1.266
+Train Loss 1.274
+Train Loss 1.235
+Train Loss 1.299
+Train Loss 1.272
+Train Loss 1.304
+Epoch  73 | Time    47 | Train Loss 1.2650 | Test Loss 0.001 | Test Error 34.18
+Train Loss 0.122
+Train Loss 1.294
+Train Loss 1.278
+Train Loss 1.274
+Train Loss 1.257
+Train Loss 1.275
+Train Loss 1.311
+Train Loss 1.306
+Epoch  74 | Time    46 | Train Loss 1.2704 | Test Loss 0.001 | Test Error 34.67
+Train Loss 0.121
+Train Loss 1.285
+Train Loss 1.288
+Train Loss 1.280
+Train Loss 1.288
+Train Loss 1.236
+Train Loss 1.303
+Train Loss 1.265
+Epoch  75 | Time    46 | Train Loss 1.2830 | Test Loss 0.001 | Test Error 34.65
+Train Loss 0.121
+Train Loss 1.249
+Train Loss 1.276
+Train Loss 1.283
+Train Loss 1.252
+Train Loss 1.273
+Train Loss 1.264
+Train Loss 1.255
+Epoch  76 | Time    46 | Train Loss 1.2644 | Test Loss 0.001 | Test Error 33.14
+Train Loss 0.133
+Train Loss 1.269
+Train Loss 1.292
+Train Loss 1.281
+Train Loss 1.286
+Train Loss 1.257
+Train Loss 1.226
+Train Loss 1.275
+Epoch  77 | Time    46 | Train Loss 1.2754 | Test Loss 0.001 | Test Error 34.83
+Train Loss 0.118
+Train Loss 1.245
+Train Loss 1.235
+Train Loss 1.249
+Train Loss 1.264
+Train Loss 1.232
+Train Loss 1.236
+Train Loss 1.247
+Epoch  78 | Time    46 | Train Loss 1.2510 | Test Loss 0.001 | Test Error 33.28
+Train Loss 0.130
+Train Loss 1.274
+Train Loss 1.242
+Train Loss 1.259
+Train Loss 1.232
+Train Loss 1.256
+Train Loss 1.247
+Train Loss 1.258
+Epoch  79 | Time    46 | Train Loss 1.2229 | Test Loss 0.001 | Test Error 32.71
+Train Loss 0.117
+Train Loss 1.244
+Train Loss 1.237
+Train Loss 1.240
+Train Loss 1.252
+Train Loss 1.234
+Train Loss 1.240
+Train Loss 1.212
+Epoch  80 | Time    46 | Train Loss 1.2331 | Test Loss 0.001 | Test Error 32.93
+Train Loss 0.123
+Train Loss 1.210
+Train Loss 1.237
+Train Loss 1.229
+Train Loss 1.239
+Train Loss 1.225
+Train Loss 1.195
+Train Loss 1.236
+Epoch  81 | Time    46 | Train Loss 1.2449 | Test Loss 0.001 | Test Error 33.05
+Train Loss 0.118
+Train Loss 1.228
+Train Loss 1.226
+Train Loss 1.221
+Train Loss 1.236
+Train Loss 1.223
+Train Loss 1.223
+Train Loss 1.229
+Epoch  82 | Time    46 | Train Loss 1.2316 | Test Loss 0.001 | Test Error 32.73
+Train Loss 0.124
+Train Loss 1.209
+Train Loss 1.235
+Train Loss 1.224
+Train Loss 1.234
+Train Loss 1.228
+Train Loss 1.220
+Train Loss 1.222
+Epoch  83 | Time    47 | Train Loss 1.2349 | Test Loss 0.001 | Test Error 32.30
+Train Loss 0.124
+Train Loss 1.214
+Train Loss 1.247
+Train Loss 1.225
+Train Loss 1.211
+Train Loss 1.208
+Train Loss 1.214
+Train Loss 1.208
+Epoch  84 | Time    47 | Train Loss 1.1970 | Test Loss 0.001 | Test Error 32.18
+Train Loss 0.122
+Train Loss 1.235
+Train Loss 1.196
+Train Loss 1.210
+Train Loss 1.228
+Train Loss 1.230
+Train Loss 1.199
+Train Loss 1.190
+Epoch  85 | Time    46 | Train Loss 1.2234 | Test Loss 0.001 | Test Error 31.56
+Train Loss 0.114
+Train Loss 1.224
+Train Loss 1.229
+Train Loss 1.224
+Train Loss 1.233
+Train Loss 1.238
+Train Loss 1.190
+Train Loss 1.201
+Epoch  86 | Time    46 | Train Loss 1.1951 | Test Loss 0.001 | Test Error 31.70
+Train Loss 0.116
+Train Loss 1.210
+Train Loss 1.190
+Train Loss 1.238
+Train Loss 1.208
+Train Loss 1.205
+Train Loss 1.180
+Train Loss 1.212
+Epoch  87 | Time    46 | Train Loss 1.1824 | Test Loss 0.001 | Test Error 30.87
+Train Loss 0.130
+Train Loss 1.178
+Train Loss 1.192
+Train Loss 1.227
+Train Loss 1.195
+Train Loss 1.191
+Train Loss 1.193
+Train Loss 1.199
+Epoch  88 | Time    46 | Train Loss 1.2071 | Test Loss 0.001 | Test Error 31.92
+Train Loss 0.119
+Train Loss 1.185
+Train Loss 1.205
+Train Loss 1.163
+Train Loss 1.200
+Train Loss 1.189
+Train Loss 1.204
+Train Loss 1.188
+Epoch  89 | Time    46 | Train Loss 1.1943 | Test Loss 0.001 | Test Error 31.45
+Train Loss 0.141
+Train Loss 1.159
+Train Loss 1.200
+Train Loss 1.171
+Train Loss 1.176
+Train Loss 1.175
+Train Loss 1.202
+Train Loss 1.184
+Epoch  90 | Time    45 | Train Loss 1.2180 | Test Loss 0.001 | Test Error 31.08
+Train Loss 0.123
+Train Loss 1.141
+Train Loss 1.185
+Train Loss 1.205
+Train Loss 1.164
+Train Loss 1.183
+Train Loss 1.160
+Train Loss 1.190
+Epoch  91 | Time    46 | Train Loss 1.1588 | Test Loss 0.001 | Test Error 30.59
+Train Loss 0.104
+Train Loss 1.153
+Train Loss 1.159
+Train Loss 1.167
+Train Loss 1.206
+Train Loss 1.195
+Train Loss 1.185
+Train Loss 1.185
+Epoch  92 | Time    46 | Train Loss 1.1710 | Test Loss 0.001 | Test Error 31.73
+Train Loss 0.114
+Train Loss 1.148
+Train Loss 1.162
+Train Loss 1.174
+Train Loss 1.159
+Train Loss 1.179
+Train Loss 1.177
+Train Loss 1.187
+Epoch  93 | Time    46 | Train Loss 1.1405 | Test Loss 0.001 | Test Error 30.78
+Train Loss 0.118
+Train Loss 1.146
+Train Loss 1.159
+Train Loss 1.190
+Train Loss 1.188
+Train Loss 1.156
+Train Loss 1.197
+Train Loss 1.164
+Epoch  94 | Time    46 | Train Loss 1.1631 | Test Loss 0.001 | Test Error 30.58
+Train Loss 0.113
+Train Loss 1.155
+Train Loss 1.202
+Train Loss 1.161
+Train Loss 1.136
+Train Loss 1.145
+Train Loss 1.188
+Train Loss 1.198
+Epoch  95 | Time    46 | Train Loss 1.1422 | Test Loss 0.001 | Test Error 30.26
+Train Loss 0.105
+Train Loss 1.161
+Train Loss 1.174
+Train Loss 1.174
+Train Loss 1.146
+Train Loss 1.140
+Train Loss 1.145
+Train Loss 1.179
+Epoch  96 | Time    47 | Train Loss 1.1509 | Test Loss 0.001 | Test Error 30.23
+Train Loss 0.129
+Train Loss 1.195
+Train Loss 1.127
+Train Loss 1.149
+Train Loss 1.157
+Train Loss 1.176
+Train Loss 1.149
+Train Loss 1.112
+Epoch  97 | Time    47 | Train Loss 1.1481 | Test Loss 0.001 | Test Error 30.34
+Train Loss 0.120
+Train Loss 1.123
+Train Loss 1.135
+Train Loss 1.194
+Train Loss 1.190
+Train Loss 1.132
+Train Loss 1.163
+Train Loss 1.152
+Epoch  98 | Time    47 | Train Loss 1.1737 | Test Loss 0.001 | Test Error 30.11
+Train Loss 0.111
+Train Loss 1.156
+Train Loss 1.181
+Train Loss 1.142
+Train Loss 1.161
+Train Loss 1.178
+Train Loss 1.154
+Train Loss 1.177
+Epoch  99 | Time    47 | Train Loss 1.1583 | Test Loss 0.001 | Test Error 30.07
+Train Loss 0.102
+Train Loss 1.190
+Train Loss 1.161
+Train Loss 1.143
+Train Loss 1.152
+Train Loss 1.156
+Train Loss 1.160
+Train Loss 1.174
+Epoch 100 | Time    47 | Train Loss 1.1597 | Test Loss 0.001 | Test Error 30.03
+gaussian_noise
+	Test Loss 0.001 | Test Error 36.908
+shot_noise
+	Test Loss 0.001 | Test Error 34.778
+impulse_noise
+	Test Loss 0.001 | Test Error 40.642
+defocus_blur
+	Test Loss 0.001 | Test Error 32.126
+glass_blur
+	Test Loss 0.001 | Test Error 36.364
+motion_blur
+	Test Loss 0.001 | Test Error 35.806
+zoom_blur
+	Test Loss 0.001 | Test Error 33.812
+snow
+	Test Loss 0.001 | Test Error 37.468
+frost
+	Test Loss 0.001 | Test Error 39.232
+fog
+	Test Loss 0.001 | Test Error 40.816
+brightness
+	Test Loss 0.001 | Test Error 33.038
+contrast
+	Test Loss 0.001 | Test Error 48.410
+elastic_transform
+	Test Loss 0.001 | Test Error 34.768
+pixelate
+	Test Loss 0.001 | Test Error 31.590
+jpeg_compression
+	Test Loss 0.001 | Test Error 31.754
+Mean Corruption Error: 36.501
