@@ -508,7 +508,7 @@ def main():
   with open(log_path, 'w') as f:
     f.write('epoch,time(s),train_loss,test_loss,test_error(%)\n')
 
-  w=SummaryWriter('logs_task6/'+args.model)
+  w=SummaryWriter('logs_task6/'+args.model+'/'+args.optim)
 
   best_acc = 0
 

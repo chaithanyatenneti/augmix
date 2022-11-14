@@ -1,6 +1,6 @@
 #!/bin/sh
 #SBATCH --job-name=augmix-test1
-#SBATCH --output=outputs/task6_res18pt.out   
+#SBATCH --output=outputs/task6_res18npt_sgd.out   
 #SBATCH --time=4:00:00
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=20G
@@ -12,4 +12,4 @@
 source ~/.bashrc
 conda deactivate
 conda activate env_am
-python cifar.py -m resnet18pt -e 100 -lr 0.001 --optim adamw --sched cosinelr  
+python cifar.py -m resnet18npt -e 100 -lr 0.001
